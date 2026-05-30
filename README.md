@@ -51,14 +51,23 @@ El sistema cuenta con una arquitectura de vistas y controladores segmentada por 
 El código fuente está organizado bajo patrones de diseño limpios y separación de responsabilidades:
 
 src/main/
+
 ├── java/com/cbtis134/sistema/
+
 │   ├── config/          # Configuraciones de Firebase y Seguridad de Spring
+
 │   ├── controller/      # Controladores REST y de Vistas (WhatsApp, Vistas Web)
+
 │   └── security/        # Filtros de autenticación por Token de Firebase
+
 └── resources/
+
 ├── static/
+
 │   ├── js/          # Lógica del cliente, módulos de incidencias y escaneo
+
 │   └── models/      # Shards y manifiestos de los modelos de visión artificial
+
 └── templates/       # Vistas HTML organizadas por administración y autenticación
 
 ## 🛡️ Prácticas de Seguridad de Datos
