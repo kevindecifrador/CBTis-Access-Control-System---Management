@@ -49,6 +49,7 @@ El sistema cuenta con una arquitectura de vistas y controladores segmentada por 
 ## ⚙️ Estructura del Proyecto
 
 El código fuente está organizado bajo patrones de diseño limpios y separación de responsabilidades:
+
 src/main/
 ├── java/com/cbtis134/sistema/
 │   ├── config/          # Configuraciones de Firebase y Seguridad de Spring
